@@ -2,7 +2,7 @@
   "name": "@ghom/nano-reactionrole",
   "author": "ghom",
   "license": "ISC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ReactionRole module for Nano",
   "main": "dist/index.js",
   "prettier": {
