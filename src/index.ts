@@ -1,5 +1,5 @@
-import ReactionRoleMessage from "./app/ReactionRoleMessage";
-import ReactionRole from "./app/ReactionRole";
+import ReactionRoleMessage from "./app/ReactionRoleMessage"
+import ReactionRole from "./app/ReactionRole"
 
 require("./parts/commands")
 require("./parts/events")
@@ -9,7 +9,7 @@ const NanoReactionRole: {
   ReactionRole: typeof ReactionRole
 } = {
   ReactionRoleMessage,
-  ReactionRole
+  ReactionRole,
 }
 
 export default NanoReactionRole

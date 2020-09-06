@@ -1,8 +1,8 @@
 {
-  "name": "nano-reactionrole",
+  "name": "@ghom/nano-reactionrole",
   "author": "ghom",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactionRole module for Nano",
   "main": "dist/index.js",
   "prettier": {
@@ -34,6 +34,7 @@
     "typescript": "4.0.2"
   },
   "dependencies": {
+    "@ghom/nano-bot": "^1.10.9-beta",
     "enmap": "^5.7.1"
   }
 }
