@@ -1,4 +1,4 @@
-import Nano from "nano-bot"
+import Nano from "@ghom/nano-bot"
 import ReactionRole from "./ReactionRole"
 import Discord from "discord.js"
 import db from "../utils/db"
