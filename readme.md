@@ -11,4 +11,12 @@
 ![GitHub issues](https://img.shields.io/github/issues/CamilleAbella/Nano-ReactionRole?color=%23BDB76B&style=plastic)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/CamilleAbella/Nano-ReactionRole?color=%23BDB76B&include_prereleases&style=plastic)
 
-## Usage
+## Import
+
+```ts
+import "@ghom/nano-reactionrole"
+```
+
+```js
+require("@ghom/nano-reactionrole")
+```
