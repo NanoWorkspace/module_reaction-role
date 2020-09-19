@@ -11,7 +11,9 @@
 ![GitHub issues](https://img.shields.io/github/issues/CamilleAbella/Nano-ReactionRole?color=%23BDB76B&style=plastic)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/CamilleAbella/Nano-ReactionRole?color=%23BDB76B&include_prereleases&style=plastic)
 
-## Import
+## Usage
+
+Read the [API documentation](https://github.com/CamilleAbella/NanoDocs) to learn how to use Nano.
 
 ```ts
 import "@ghom/nano-reactionrole"
