@@ -5,6 +5,7 @@
   "version": "1.0.3",
   "description": "ReactionRole module for Nano",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
@@ -43,6 +44,7 @@
   },
   "dependencies": {
     "@ghom/nano-bot": "^1.10.9-beta",
+    "@ghom/nano-paginator": "^1.0.0",
     "enmap": "^5.7.1"
   }
 }

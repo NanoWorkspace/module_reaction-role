@@ -1,9 +1,11 @@
 import Nano from "@ghom/nano-bot"
+import Paginator from "@ghom/nano-paginator"
 import Discord from "discord.js"
 import ReactionRoleMessage from "../app/ReactionRoleMessage"
 import db from "../utils/db"
 
 new Nano.Command({
+  id: "reactionRole",
   name: "Reaction-Roles Manager",
   pattern: /rr|rero|reaction[\s-]?role/i,
   description: "Gère la création et la suppression de réaction-rôles",
@@ -97,7 +99,7 @@ new Nano.Command({
       const reactionRoleMessages = ReactionRoleMessage.getByGuild(
         message.guild as Discord.Guild
       )
-      const embeds = Nano.Paginator.divider<Discord.EmbedFieldData>(
+      const embeds = Paginator.divider<Discord.EmbedFieldData>(
         reactionRoleMessages
           .array()
           .reverse()
@@ -132,7 +134,7 @@ new Nano.Command({
           new Nano.Embed("Ils n'y a aucun reaction-role-message sur ce serveur")
         )
       }
-      return new Nano.Paginator(embeds, message.channel, (reaction, user) => {
+      return new Paginator(embeds, message.channel, (reaction, user) => {
         return user === message.author
       })
     }
